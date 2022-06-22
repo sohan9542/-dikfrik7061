@@ -1,0 +1,308 @@
+#mainfull {
+    /* width: 100% !important; */
+    height: auto;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: -18px;
+}
+
+/* #mainfulsld {
+
+    width: 900px;
+    margin-top: 200px;
+
+} */
+
+/* #slidermn {
+    width: 800px !important;
+} */
+
+#haffuldiv {
+    width: 100%;
+    height: auto;
+    background-color: #e6e7e8;
+    /* margin-top: 180px; */
+    border-radius: 13px 13px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.texxxt {
+    color: black;
+    font-size: x-small;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#hafuldivtxt {
+    color: black;
+    margin-top: 5px;
+}
+
+.color {
+    color: red;
+    margin-right: 10px;
+}
+
+#mainfuldivm {
+    width: 100%;
+    height: auto;
+    background-color: #003a96;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.toppp {
+    background-color: #003a96;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.botomtex {
+    margin-left: -80px;
+    font-size: x-small;
+    color: black;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.lastbutn {
+    background-color: #0eaa3a;
+    color: white;
+    font-size: x-small;
+    border-radius: 7px;
+    border: transparent;
+    width: 80px;
+    height: 20px;
+    margin-bottom: 6px;
+}
+
+.Rank {
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+
+.numbr {
+    color: red;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+
+.mainbox {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.one1 {
+    color: red;
+    font-size: small;
+    font-weight: 700;
+
+}
+
+.slidecrd {
+    width: auto;
+    height: 200px;
+    background-color: white;
+    /* margin-left: 40px ; */
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 13px #003a96;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    /* margin-left: 8px; */
+    /* border-radius: 10px; */
+}
+
+.pigeonn {
+    width: 45px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+
+
+
+.boximg {
+    border-radius: 50px;
+    box-shadow: 1px 0px 6px;
+}
+
+.icontxman {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+}
+
+.icnbx {
+    width: 25px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.startRbtn {
+    color: white;
+    background-color: #003a96;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 100px;
+    padding: 6px;
+    margin-top: 7px;
+    padding-left: 22px;
+    border: solid 1px white;
+
+}
+
+.startRbtn:hover {
+    background-color: red;
+}
+
+
+/* GRAPH popup */
+.graphmain {
+    background-color: #003a96;
+    height: auto;
+    margin-top: -20px;
+}
+
+.graphmiddl {
+    background-color: #1d67cd;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.grapiddl {
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    /* display: flex;/ */
+    /* justify-content: center; */
+    /* margin-bottom: 20px !important; */
+}
+
+#lawmain {
+    width: 100%;
+    /* background-color: #0eaa3a; */
+    height: 120px;
+    display: flex;
+    justify-content: end;
+}
+
+.Resell {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.lawimg {
+    width: 160px;
+    height: 120px;
+    margin-top: -30px;
+    margin-right: 35px;
+}
+
+.canadaimg {
+    width: 50px;
+    height: 40px;
+}
+
+.canadatext {
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+
+.seconcanadatx {
+    font-size: small;
+}
+
+.numberred {
+    color: red;
+    font-weight: bold;
+
+}
+
+#maindd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#half {
+    background-color: #1d67cd;
+    width: auto;
+    height: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texttt {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}
+
+.sellpigeon {
+    color: white;
+    background-color: red;
+    width: 140px;
+    height: 35px;
+    border: transparent;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.graphlst {
+    background-color: #131252;
+    border-radius: 10px;
+    height: auto;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.statsT {
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.Cvalue{
+    color: red;
+}
+.BOTNAR{
+    color: white;
+    font-size: x-small;
+    font-weight: 400;
+    margin-top: 20px;
+}

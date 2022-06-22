@@ -1,0 +1,205 @@
+#Navbar {
+    background-color: #003a96 !important;
+    color: white !important;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 991px) {
+    .pagesmain {
+        margin-left: 30px;
+    }
+}
+
+.logoweb {
+    width: 230px !important;
+    margin-left: -10px;
+}
+
+.icons {
+    width: 29px;
+    height: 24px;
+}
+
+.pagesmain {
+    display: flex;
+    margin-top: 10px;
+}
+
+.navbarpages {
+    font-size: x-small;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#responsive-navbar-nav {
+    background-color: #003a96 !important;
+    z-index: 110;
+    /* margin-top: 50px;
+    margin-left: 30px; */
+}
+
+#lognbutn {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#signupbutn {
+    border-radius: 17px;
+    width: 120px;
+    margin-top: 5px;
+    height: 35px;
+    color: white;
+    border: solid red;
+    background-color: red;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#signupbutn:hover {
+    background-color: #003a96;
+    border: solid white 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.manButn {
+    width: 100% !important;
+    /* display: flex !important; */
+    /* flex-direction: row !important; */
+    /* justify-content: space-between !important; */
+    background-color: #003a96;
+}
+
+.LoginSignUp {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 1px white !important;
+    font-size: small;
+    color: white;
+
+}
+
+#loginbtn {
+    margin-right: 80px;
+    /* margin-left: 10px; */
+}
+
+.signupmain {
+    background-color: #003a96;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#signtext {
+    color: white;
+    font-size: x-small;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+#signuplogo {
+    width: 50px;
+    /* margin-left: 60px; */
+}
+
+#signupline {
+    border-bottom: solid 1px white;
+    width: 200px;
+    margin-top: -120px !important;
+
+}
+
+.inputtitle {
+    color: white;
+    font-size: x-small;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.inputsignup {
+    width: 260px;
+    height: 33px;
+    background-color: #1d67cd;
+    border-radius: 6px;
+    border: solid white 1px;
+    color: white;
+    font-size: x-small;
+}
+
+.lastpricy {
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+}
+
+.lasttex {
+    color: white;
+    font-size: xx-small;
+    margin-left: 30px;
+}
+
+.lastsignbutn {
+    background-color: red;
+    border-radius: 20px;
+    width: 130px;
+    color: white;
+    border: solid white 1px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.lastsignbutn:hover {
+    border: solid white 2px;
+}
+
+/* #signinbtn{
+    height: 600px;
+} */
+#forgot {
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size: x-small;
+}
+
+#forgotmain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#modl {
+    z-index: 1;
+}
+
+.close {
+    width: 30px;
+    position: relative;
+
+    height: 27px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px !important;
+}

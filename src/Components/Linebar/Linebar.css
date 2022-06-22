@@ -1,0 +1,121 @@
+#row {
+    width: 100% !important;
+
+    background-color: #e8e6e6;
+    height: 40px !important;
+}
+
+#pagessmain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px !important;
+    height: 40px;
+}
+
+#man {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagss {
+    border: transparent;
+    background-color: transparent;
+    font-size: small;
+}
+
+#depostbutn {
+    border-radius: 15px;
+    font-size: x-small;
+    width: 90px;
+    color: white;
+    border: solid red;
+    background-color: red;
+    margin-right: -400px !important;
+    margin-left: 110px;
+    font-weight: bold;
+}
+
+#dashbord {
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#dshbod:hover{
+    color: red;
+}
+#hme:hover{
+    color: red;
+}
+#contactpge {
+    width: 110px;
+}
+#contactpge:hover{
+    color: red;
+}
+#hcentr {
+    border-right: solid 1px;
+    width: 140px;
+    margin-top: 2px;
+}
+
+.help:hover{
+    color: red;
+}
+/* .help:active{
+color: red;
+} */
+#price {
+    font-weight: 900;
+    color: #8015e8;
+    width: 200px;
+    padding-left: 132px;
+    /* margin-right: -50px; */
+}
+
+#homepge {
+    margin-right: 40px;
+    padding-right: -20px;
+}
+#homepge:hover{
+color: red;
+}
+
+#Appbarmain {
+    height: 40px;
+    background-color: #e8e6e6;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center !important;
+    top:60px;
+    /* margin-top: 60px; */
+    /* width: 100%; */
+    /* position: fixed; */
+    z-index:  1;
+}
+
+.pagsses {
+    background-color: transparent;
+    border: solid 1px white;
+    color: #003a96;
+    margin-left: 30px;
+}
+
+#positbtn {
+    background-color: red;
+    border: red solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: x-small;
+    height: 27px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.deopst:hover{
+    background-color: #003a96 !important;
+    border: solid #003a96 2px !important;
+    color: white;
+}
+

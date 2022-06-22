@@ -1,0 +1,144 @@
+#sectionman{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color: #003a96;
+    /* width: 100% !important; */
+    height: auto;
+    /* position: absolute; */
+    /* top: 105px; */
+    right: 0;
+    left: 0;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+#profilepic{
+    width: 70px;
+}
+#profilepicman{
+    width: 100px;
+    height: 90px;
+    background-color: #1d67cd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#racemain{
+    margin-top: -30px;
+}
+
+.rac{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    /* margin-top: -70px !important; */
+    /* margin-bottom: 100px !important; */
+}
+#boxx{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 14px;
+    /* margin-top: -30px !important; */
+}
+.iconwith{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.grennum{
+    color: lightblue;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#boxxtx{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+#sectionhead{
+    color: white;
+    font-weight: bold;
+    /* margin-left: 110px; */
+    /* margin-right: -100px; */
+}
+.maintgold{
+    display: flex;
+    flex-direction: row;
+}
+.tgold{
+    width: 40px;
+    margin-bottom: 10px;
+    
+}
+.texx{
+    color: white;
+    font-weight: 700;
+    font-size: small;
+
+    /* margin-bottom: -60px !important; */
+}
+#texxt{
+    width: 300px;
+}
+#mannimg{
+    width: 55px;
+}
+#belgum{
+    width: 16px;
+}
+#mannmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -15px; */
+}
+#manntext{
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    /* width: 300px; */
+}
+#balnce{
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#pric2{
+    font-weight: 900;
+    color: white;
+}
+.ratd{
+    background-color: red;
+    border: red solid 1px;
+    border-radius: 12px;
+    font-size: x-small;
+    width:135px;
+    height: 25px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+.ratd:hover{
+    background-color: lightblue;
+    border: solid 1px lightblue;
+}
+#pric2main{
+    margin-top: -20px;
+}
+.margin{
+    margin-bottom: 20px;
+}

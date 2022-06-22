@@ -1,0 +1,76 @@
+#timerimgmain{
+    width: 979px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 30px; */
+    background-image: url('./../../Images/thrthtrh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background: 85%; */
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.Timerimmg{
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+
+
+.count{
+    padding:10px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.split{
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+    border: none !important;
+    font-size: 30px !important;
+}
+
+._label_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.timertitle{
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#top1{
+    font-style: italic;
+    font-size: small;
+    color: gray;
+}
+#top2{
+    font-size: small;
+    color: black;
+    font-weight: bold;
+}
+#topmain{
+    margin-top: -20px;
+
+}
+#topimg{
+    margin-top: -90px;
+}
+.count{
+    margin-top: 20px;
+    padding: 35px!important;
+}
+.root-react-component-countdown-timer {
+    padding-top: 40px;
+}

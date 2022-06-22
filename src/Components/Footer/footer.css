@@ -1,0 +1,74 @@
+#Footermain{
+    background-color: #001d4b;
+    height: auto;
+  
+}
+#simpleborder{
+    border-bottom: solid 1px white !important;
+  
+}
+.mandv{
+    display: flex !important;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 60px !important;
+    margin-left:250px;
+    margin-right:250px;
+    
+}
+.servicespage{
+    background-color: transparent;
+    color: #e8e6e6;
+    border: transparent;
+    font-size:12px;
+    font-weight:bold ;
+}
+.fotertx{
+    font-size: x-small;
+    color: #e8e6e6;
+    margin-left: 5px;
+}
+#footerlast{
+    display: flex;
+    margin-top: 15px;
+}
+#lstpage1{
+    margin-left: 250px;
+}
+#lasttext{
+    color: white;
+    font-size: 70%;
+    margin-top: 100px;
+margin-left: 100px;
+}
+@media only screen and (max-width: 1240px) {
+    .mandv{
+     margin-left: 100px;
+     margin-right: 100px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1240px) {
+    #simpleborder{
+     display: none;
+    }
+    #footerlast{
+        margin-left:-250px ;
+    }
+    .pags{
+        margin-bottom: 20px
+    }
+    #lasttext{
+        margin-left: -10px;
+        margin-top: 25px;
+    }
+    #lasttextmain{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+

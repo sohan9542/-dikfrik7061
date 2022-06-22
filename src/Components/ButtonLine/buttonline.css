@@ -1,0 +1,156 @@
+#buttonlin {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    /* position: absolute; */
+    /* top: 230px;
+    right: 0;
+    left: 0; */
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.buttons {
+    width: 199px;
+    border: solid 1px #c7c7c7;
+    border-radius: 8px;
+    background-color: #c7c7c7;
+    color: black;
+    height: 35px;
+    font-weight:bold;
+    margin-bottom: 14px;
+    font-size:small;
+}
+
+.buttons:hover {
+    background-color: #550d9c;
+    color: white;
+}
+
+#loby {
+    background-color: #550d9c !important;
+    color: white;
+    border: solid 1px #550d9c;
+}
+
+#loby:hover {
+    background-color: #c7c7c7 !important;
+}
+.cashiericon{
+    width: 20px;
+    margin-left: 3px;
+}
+
+/* @media only screen and (max-width: 1198px) {
+    #buttonlin {
+        margin-top: 30px;
+    }
+} */
+
+#presonalM {
+    font-size: medium;
+    color: white;
+    margin-top: 20px;
+}
+
+#detailmain {
+    width: 85%;
+    background-color: #1d67cd;
+    height: auto;
+    border-radius: 10px;
+    height: auto;
+}
+
+#log {
+    width: 60px;
+    margin-left: 500px;
+    margin-top: -15px;
+}
+
+.formcol {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.inpttitle {
+    color: white;
+    font-size: x-small;
+    margin-top: 30px !important;
+    margin-bottom: 1px;
+}
+
+.inptsignup {
+    width: 260px;
+    height: 33px;
+    background-color: #0057e1;
+    border-radius: 6px;
+    border: solid white 1px;
+    color: white;
+    font-size: x-small;
+}
+
+#lastupdettex {
+    font-size: xx-small;
+    color: white;
+    font-weight: bold;
+    /* width: 100%; */
+}
+
+#updatebutn {
+    background-color: red;
+    width: 140px;
+    height: 38px;
+    border: transparent;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+/* CASHIER Popup */
+
+#CashierH{
+    background-color: #003a96;
+}
+
+#cashierbutn{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    border-bottom:solid white 1px !important ;
+    font-size: small;
+    font-weight: 500;
+}
+
+#mainCashier{
+    background-color: #0057e1;
+    width: 95%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#middleCashier{
+    background-color: white;
+    border-radius: 10px;
+    width: 95%;
+    height: 490px;
+    margin-top: 5px;
+}
+.Cose{
+    width: 30px;
+    position: relative;
+
+    height: 27px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
+    margin-right: 5px !important;
+    margin-top: 20px !important;
+}

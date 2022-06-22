@@ -1,0 +1,377 @@
+#videosectionmain {
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    margin-top: -6px;
+}
+
+#truckdiv {
+    background-color: #e6e7e8;
+    width:405px;
+    height: auto;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: -12px;
+}
+
+#onebtn {
+    background-color: red !important;
+    color: white !important;
+}
+
+#onebtn:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.truckbutn {
+    background-color: #c7c7c7;
+    border: solid 1px #c7c7c7;
+    height: 35px;
+    width: 176px;
+    color: black;
+    font-weight: 700;
+    font-size: small;
+    /* margin-left: -12px; */
+    /* padding: 0px 20px 0px 20px !important; */
+}
+
+.truckbutn:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+#truckimg {
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#videomain {
+    width: 260px;
+    height: 220px;
+    /* background-color: red; */
+    /* margin-top: -6px; */
+    display: flex;
+}
+
+#video {
+    margin-top: -55px;
+}
+
+#Vsectimg {
+    margin-left: -15px;
+    margin-Top: 10px
+}
+
+#alltext {
+    color: black;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* PIGEONS Popup */
+#listimain {
+    background-color: #003a96;
+    height: 600px;
+}
+
+#selectPbutn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    border-bottom: solid white 1px !important;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.patya {
+    font-size: x-small;
+    font-weight: bold;
+    color: white;
+}
+
+#mainselect {
+    width: 100%;
+    height: 550px;
+    background-color: #0057e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#middl {
+    background-color: white;
+    width: 95%;
+    height: 530px;
+    border-radius: 12px;
+    margin-top: 7px;
+}
+
+#creditsavalble {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+}
+
+.Avalable {
+    width: 75px;
+    height: 23px;
+    background-color: #0057e1;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center !important;
+    /* align-items: center; */
+}
+
+.avalbltnumber {
+    color: white;
+    font-size: x-small;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+#cost {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+}
+
+#costs {
+    width: 75px;
+    height: 23px;
+    background-color: #0057e1;
+    border-radius: 5px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center !important;
+}
+
+.buyCbutn {
+    background-color: red;
+    height: 24px;
+    width: 95px;
+    font-size: x-small;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 14px;
+    color: white;
+}
+
+.me-2 {
+    height: 30px !important;
+    border-radius: 15px !important;
+    background-color: #e6e7e8 !important;
+}
+
+.searchbutn {
+    height: 30px !important;
+    width: 125px !important;
+    border-radius: 15px !important;
+    background-color: red !important;
+    font-size: small !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.searchbutn:hover {
+    background-color: #0057e1 !important;
+}
+
+
+/* Cost popup */
+
+#mainstock {
+    width: 100%;
+    height: 580px;
+    background-color: #0057e1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#midl {
+    width: 95%;
+    height: 570px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.buyC {
+    background-color: red;
+    width: 140px;
+    height: 40px;
+    border: transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+#alllist {
+    width: 80%;
+    height: 460px;
+    /* background-color: red; */
+}
+
+
+
+.smallman {
+    background-color: #003a96;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enteracebtn {
+    color: white;
+    font-size: small;
+    border: transparent;
+    border-bottom: solid 1px white !important;
+    background-color: transparent;
+}
+
+.mainbody {
+    background-color: #003a96;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.middlbody {
+    background-color: #0057e1;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.middbody {
+    background-color: #0057e1;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+.lastbody {
+    background-color: white;
+    width: 94%;
+    height: 460px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.lastbodycard {
+    background-color: white;
+    width: 94%;
+    height: auto;
+    border-radius: 10px;
+    /* margin-top: -10px; */
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.mainFee {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.Fee {
+    font-size: large;
+    font-weight: bold;
+    color: dimgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#enterrc {
+    background-color: #003a96;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    border: transparent;
+    border-radius: 20px;
+    width: 150px;
+    height: 27px;
+    /* background-color: red; */
+}
+
+#enterrc:hover {
+    background-color: red;
+}
+
+#CreditR {
+    font-size: x-small;
+}
+
+#inputgnup {
+    width: 230px;
+    height: 40px;
+    background-color: #1d67cd;
+    border-radius: 6px;
+    border: solid white 1px;
+    color: white;
+    font-size: x-small;
+}
+
+.recivetext {
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.redcolr {
+    color: red;
+}
+
+.imgsiz {
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    ;
+}
+
+.loftbtn {
+    background-color: #003a96;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    font-size: x-small;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.loftbtn:hover {
+    background-color: red;
+}
+
+.ose {
+    width: 30px;
+    position: relative;
+    /* margin-left: 50px !important; */
+    height: 27px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px !important;
+}

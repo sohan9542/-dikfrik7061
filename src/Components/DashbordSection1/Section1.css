@@ -1,0 +1,274 @@
+#sectionmain {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    background-color: #003a96;
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+    top: 105px;
+    /* right: 0; */
+    /* left: 0; */
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#profilepic {
+    width: 70px;
+}
+
+#profilepicman {
+    width: 100px;
+    height: 90px;
+    background-color: #1d67cd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#toptim {
+    width: 230px;
+    height: 35px;
+    background-color: #c7c7c7;
+    /* margin-top: 3px; */
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsbd {
+    color: white;
+    font-weight: bold;
+}
+
+#next {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+}
+
+#manimg {
+    width: 55px;
+}
+
+#belgium {
+    width: 16px;
+}
+
+#manmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: -15px; */
+}
+
+#mantext {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    /* width: 300px; */
+}
+
+#balance {
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#price2 {
+    font-weight: 900;
+    color: white;
+}
+
+.rated {
+    background-color: red;
+    border: red solid 1px;
+    border-radius: 12px;
+    font-size: x-small;
+    width: 135px;
+    height: 25px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.rated:hover {
+    background-color: lightblue;
+    border: solid 1px lightblue;
+}
+
+#price2main {
+    margin-top: -20px;
+}
+
+.LognSignUp {
+    width: 105px;
+    background-color: #c7c7c7;
+    border: solid #c7c7c7 1px;
+    font-size: small;
+    height: 35px;
+
+}
+.LognSignUp:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.manButn {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#goldenicon {
+    width: 30px;
+    margin-left: -30px !important;
+
+}
+
+#funfM {
+    background-color: transparent;
+    border: transparent;
+    font-size: small;
+    color: white;
+    border-bottom: solid white 1px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#depostm {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: -21px;
+    display: flex;
+    flex-direction: column !important;
+    /* justify-content:center !important; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+#amountT {
+    color: #c7c7c7;
+    font-size: x-small;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.amountb {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #1d67cd;
+    color: white;
+    font-weight: 800;
+    margin-right: -22px;
+    border: transparent;
+    margin-top: -20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.amountb:hover {
+    background-color: red;
+}
+
+#maincard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cardimg {
+    width: 80%;
+    /* margin-left: 23px; */
+}
+
+#lastmn {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* margin-top: 10px; */
+
+}
+
+#makeD {
+    font-size: small;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    border: solid white 1px;
+    background-color: red;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#paypaltext {
+    font-size: x-small;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#lastimg {
+    width: 90px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+#withdrawM{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center !important;
+    margin-bottom: 200px;
+    margin-top: -21px;
+
+}
+#Awithdraw{
+    color: black;
+    font-size: xx-small;
+    margin-top: 20px;
+}
+.inputwithdraw{
+    background-color: #1d67cd;
+    width: 200px;
+    height:33px ;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+.lasywithdraw{
+    background-color: red;
+    border-radius: 20px;
+    width: 140px;
+    color: white;
+    border: solid white 1px;
+    height: 37px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: small;
+    margin-bottom: 50px;
+}
+.cse{
+    width: 30px;
+    position: relative;
+    height: 27px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px !important;
+}

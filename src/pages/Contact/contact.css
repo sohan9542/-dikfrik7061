@@ -1,0 +1,182 @@
+#contactimg {
+    width: 100%;
+}
+
+
+.mndiv {
+    background-color: white;
+    height: auto;
+    margin-top: -200px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 120px; */
+    margin-left: 200px;
+}
+
+.colm {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#col1 {
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+}
+
+#col2 {
+    width: 50%;
+    height: auto;
+    /* background-color:blue; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+#sayhello {
+    font-weight: bold;
+    /* margin-left: 20px; */
+    margin-top: 30px;
+    color: black;
+}
+
+#col2text {
+    /* margin-left: 20px; */
+    font-size: small;
+    color: black;
+}
+
+#txmn {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    font-size: 13px;
+}
+
+.apps {
+    font-size: 13px;
+    /* margin-left: 20px; */
+}
+
+.inputtop {
+    width: 93%;
+    height: 27px;
+    border: 1px solid black;
+    /* margin-top: -130px ; */
+    margin-bottom: 10px;
+}
+
+.topname {
+    font-size: 11px !important;
+    margin-bottom: 4px;
+    /* margin-top: 10px !important; */
+}
+
+#inputbottom {
+    width: 93%;
+    height: 66px;
+}
+
+#contactsend {
+    width: 93%;
+    height: 27px;
+    font-size: 11px !important;
+    color: white;
+    /* margin-left: 20px; */
+    border: solid 1px #0057e1;
+    background-color: #0057e1;
+    margin-top: 10px;
+}
+
+#contactsend:hover {
+    border: solid 1px #0057e1;
+    background-color: white !important;
+    color: black;
+}
+
+#borderline {
+    border-top: solid 1px black;
+    margin-top: 60px;
+    width: 100%;
+
+}
+
+#lastvist {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 50px;
+    height: auto;
+    margin-left: 30px;
+}
+
+#vist {
+    font-weight: bold;
+}
+
+.visttext {
+    font-size: small;
+    color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    #maincolm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #col2 {
+        margin-left: -40px !important;
+        width: 100%;
+        /* margin-left: auto; */
+        /* margin-right: 50px; */
+        margin-top: 50px;
+    }
+
+    .mndiv {
+        /* margin-right: 100px; */
+        margin-top: 100px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #col1 {
+        /* width: 50%; */
+        margin-left: auto;
+        height: auto;
+        /* background-color: red; */
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    #col2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #inputbottom {
+        width: 80%;
+    }
+
+    #contactsend {
+        width: 80%;
+    }
+    .inputtop{
+        width: 80%;
+    }
+    .topp{
+        width:75% !important;
+        /* margin-left: -5px !important; */
+    }
+    #lastnam{
+        margin-left: -20px;
+    }
+}
