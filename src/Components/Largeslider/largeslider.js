@@ -33,7 +33,7 @@ export default class Responsive extends Component {
             dots: true,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
             initialSlide: 0,
             responsive: [
@@ -71,7 +71,7 @@ export default class Responsive extends Component {
             ]
         };
         return (
-            <Container id="mismall">
+         
 
                 <div id="mindivm">
                     <div id="hafdiv">
@@ -229,7 +229,7 @@ export default class Responsive extends Component {
                         </Slider>
                     </div>
                 </div>
-            </Container>
+        
 
         );
     }

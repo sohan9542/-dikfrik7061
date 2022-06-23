@@ -18,7 +18,7 @@
 
     background-color: #1d67cd;
     height: 280px;
-    width: 750px;
+
     border-radius: 13px 13px 13px 13px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .haffdiv {
-    width: 750px;
+   
     height: 35px;
     background-color: #e6e7e8;
     /* margin-top: 180px; */
@@ -99,15 +99,16 @@
 
 #mainlne {
     width: 100%;
-    height: auto;
+    height: 228px;
     display: flex !important;
     flex-direction: column;
-    justify-content: center !important;
+   overflow-y: scroll;
     margin-top: 10px;
+  padding: 15px;
 }
 
 .linesss {
-    width: 90%;
+
     height: 37px;
     background-color: white;
     border-radius: 10px;
@@ -115,7 +116,7 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 8px;
-    margin-left: 29px;
+
 }
 
 .flg {
@@ -156,16 +157,13 @@
 @media only screen and (max-width: 756px) {
     #divcol2 {
         /* background-color: lightblue !important; */
-        width: 600px;
+     
         /* height: 130px;
         margin-top: 15px;
         margin-top: 60px; */
         margin-top: 10px;
     }
 
-    .haffdiv {
-        width: 600px !important;
-    }
 
     .closedicon {
         margin-left: 90px !important;
@@ -175,15 +173,12 @@
 @media only screen and (max-width: 612px) {
     #divcol2 {
         /* background-color: lightblue !important; */
-        width: 400px;
+  
         /* height: 130px;
         margin-top: 15px;
         margin-top: 60px; */
     }
 
-    .haffdiv {
-        width: 400px !important;
-    }
 
     .closedicon {
         margin-left: 0px !important;
@@ -195,15 +190,13 @@
 @media only screen and (max-width: 420px) {
     #divcol2 {
         /* background-color: lightblue !important; */
-        width: 350px;
+       
         /* height: 130px;
         margin-top: 15px;
         margin-top: 60px; */
     }
 
-    .haffdiv {
-        width: 350px !important;
-    }
+
 
     .closedicon {
         margin-left: 0px !important;

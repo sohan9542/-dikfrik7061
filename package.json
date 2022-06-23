@@ -22,6 +22,7 @@
     "react-chartjs-2": "^4.2.0",
     "react-circular-progressbar": "^2.0.4",
     "react-component-countdown-timer": "^0.1.8",
+    "react-data-table-component": "^7.5.2",
     "react-dom": "^18.0.0",
     "react-native-countdown-component": "^2.7.1",
     "react-native-countdown-component-cm": "^1.0.2",
@@ -55,5 +56,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
   }
 }

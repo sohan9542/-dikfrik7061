@@ -1,4 +1,4 @@
-#timerimgmain{
+#timerimgmain {
     width: 979px;
     height: auto;
     display: flex;
@@ -15,28 +15,44 @@
     margin-bottom: 40px;
 
 }
-.Timerimmg{
+
+.Timerimmg {
     margin-top: -25px;
     margin-bottom: 30px;
 }
 
 
 
-.count{
-    padding:10px !important;
+.count {
+    padding: 10px !important;
     border-radius: 10px !important;
     color: white !important;
     font-size: 30px !important;
 }
 
-.split{
+.count {
+    margin-top: 20px;
+    padding: 35px !important;
+}
+
+.root-react-component-countdown-timer {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 780px) {
+    .count {
+        padding: 10px !important;
+    }
+}
+
+.split {
     margin-left: 7px !important;
     margin-right: 7px !important;
     border: none !important;
     font-size: 30px !important;
 }
 
-._label_div{
+._label_div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,33 +60,29 @@
     margin-bottom: 10px;
 }
 
-.timertitle{
+.timertitle {
     font-size: x-small;
     font-weight: bold;
     margin-top: 20px;
 }
 
-#top1{
+#top1 {
     font-style: italic;
     font-size: small;
     color: gray;
 }
-#top2{
+
+#top2 {
     font-size: small;
     color: black;
     font-weight: bold;
 }
-#topmain{
+
+#topmain {
     margin-top: -20px;
 
 }
-#topimg{
+
+#topimg {
     margin-top: -90px;
-}
-.count{
-    margin-top: 20px;
-    padding: 35px!important;
-}
-.root-react-component-countdown-timer {
-    padding-top: 40px;
 }

@@ -7,7 +7,26 @@
     /* margin-bottom: -40px; */
     margin-top: 200px !important;
 }
-
+.iconslide3{
+    width: 507px;
+}
+.iconslide4{
+    width: 596px;
+}
+.cup{
+    height: 112px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+.slider3{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 30px;
+}
+.w-400{
+    width: 400px;
+}
 .iconslide1 {
     width: 671px;
     height: 577px;
@@ -37,9 +56,12 @@
     color: white;
 }
 
-
+.play{
+    height: 64px;
+    object-fit: contain;
+}
 .startbtn {
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: #003a96;
     color: white;
     font-size: 18px;
@@ -58,10 +80,12 @@
 
 
 @media only screen and (max-width: 1100px) {
+    
     .iconslide1 {
+
         width: 300px;
         height: 300px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .MainCarsol {
@@ -91,6 +115,15 @@
 }
 
 @media only screen and (max-width: 971px) {
+    .iconslide2 {
+        width: 672px;
+        height: 349px;
+    }
+    
+    .play{
+        height: 44px;
+        object-fit: contain;
+    }
     .iconslide1 {
         width: 170px;
         height: 170px;
@@ -105,6 +138,7 @@
     }
 
     .slideteaxt {
+        line-height: 30px;
         font-size: 20px;
         font-weight: 500;
         color: white;
@@ -120,10 +154,6 @@
 
     }
 
-    #slidetextID {
-        margin-top: -90px !important;
-        margin-left: 30px !important;
-    }
 
     #secndtextID {
         margin-left: 40px !important;
@@ -133,13 +163,45 @@
     .startbtn {
         margin-top: 10px;
         border-radius: 20px;
-        width: 100px;
-        height: 26px;
+      
+       
         font-size: x-small;
     }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 780px) {
+    .cup{
+        padding-bottom: 10px;
+        height: 50px;
+        object-fit: contain;
+        margin: 10px 0;
+    }
+    .w-400{
+        width: 100px;
+    }
+    .slider3{
+        padding-top: 20px;
+        display: flex;
+     gap: 5px;
+    }
+    .iconslide3{
+        width: 100px;
+        object-fit: contain;
+    }
+    .iconslide4{
+        width: 100px;
+        object-fit: contain;
+    }
+    .iconslide2 {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+    }
+    
+    .play{
+        height: 28px;
+        object-fit: contain;
+    }
     .iconslide1 {
         width: 150px;
         height: 150px;
@@ -154,6 +216,8 @@
     }
 
     .slideteaxt {
+        padding: 10px 0;
+        line-height: 14px;
         font-size: 15px;
         font-weight: 400;
         color: white;
@@ -170,10 +234,10 @@
     }
 
     .startbtn {
-        margin-top: 10px;
+        margin-top: 1px;
         border-radius: 20px;
-        width: 90px;
-        height: 20px;
+      
+      padding: 5px;
         font-size: xx-small;
 
     }
@@ -209,6 +273,7 @@
 
 @media only screen and (max-width: 498px) {
     .iconslide1 {
+        margin-top: 50px;
         width: 150px;
         height: 150px;
     }
@@ -241,8 +306,8 @@
     .startbtn {
         margin-top: 10px;
         border-radius: 20px;
-        width: 70px;
-        height: 15px;
+      
+        
         font-size: 5px;
 
     }
@@ -284,8 +349,8 @@
     .startbtn {
         margin-top: 10px;
         border-radius: 20px;
-        width: 70px;
-        height: 15px;
+   
+      
         font-size: 5px;
 
     }
@@ -303,18 +368,8 @@
     background-position: cover;
     background-size: 100% 100% !important;
 }
-.iconslide3{
-    width: 507px;
-}
-.iconslide4{
-    width: 596px;
-}
-.slider3{
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    gap: 30px;
-}
+
+
 @keyframes mymove {
     from {
         
