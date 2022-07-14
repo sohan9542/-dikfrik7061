@@ -73,7 +73,7 @@ function Slider() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ backgroundColor: "#003a96", marginTop: "-10px" }}>
-          {modaltype === "login1" ? (
+          {modaltype === "login1" && (
             <div>
               <div className="signupmain" id="signinbtn">
                 <span className="inputtitle">Email Address*</span>
@@ -94,7 +94,9 @@ function Slider() {
                     <input type="checkbox" />
                     <span className="inputtitle">Remember me</span>
                   </div>
-                  <button id="forgot">Forgot Password</button>
+                  <button onClick={() => setmodaltype("forget")} id="forgot">
+                    Forgot Password
+                  </button>
                 </div>
                 <div className="lastpricy">
                   <p className="lasttex">
@@ -103,13 +105,20 @@ function Slider() {
                   <button className="lastsignbutn">LOGIN</button>
                   <div>
                     <p style={{ fontSize: "small", color: "white" }}>
-                      Not a member? <Link to="#mainS">Register</Link>
+                      Not a member?{" "}
+                      <span
+                        style={{ cursor: "pointer", color: "white" }}
+                        onClick={() => setmodaltype("signup")}
+                      >
+                        Register
+                      </span>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          ) : (
+          )}
+          {modaltype === "signup" && (
             <div
               style={{
                 display: "flex",
@@ -191,6 +200,48 @@ function Slider() {
               </div>
             </div>
           )}
+          {modaltype === "forget" && (
+            <div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}
+              >
+                <div id="signupline">Forgot password</div>
+
+                <img src={logosignup} id="signuplogo" />
+              </div>
+              <div className="signupmain" id="signinbtn">
+                <span className="inputtitle">Email Address*</span>
+                <input
+                  type="email"
+                  placeholder="Enter Address"
+                  className="inputsignup"
+                />
+                <span className="inputtitle">Enter Password*</span>
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  className="inputsignup"
+                />
+                <span className="inputtitle">Confirm Password*</span>
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  className="inputsignup"
+                />
+
+                <div className="lastpricy">
+                  <p className="lasttex">
+                    Please read our Terms of Use and Privacy Policies
+                  </p>
+                  <button className="lastsignbutn">RESET </button>
+                </div>
+              </div>
+            </div>
+          )}
         </Modal.Body>
       </Modal>
 
@@ -238,9 +289,14 @@ function Slider() {
                         >
                           Get Started Now
                         </button>
-                        
                       </p>
-                      <img src={playstore} className="play"  alt="" />
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.COMPUPIGEON&gl=ZA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img src={playstore} className="play" alt="" />
+                      </a>
                     </div>
                   </Col>
                   <Col xs={5}>
@@ -287,7 +343,13 @@ function Slider() {
                         WAY TO TRUIMPH <br />
                         THE SKY WITH VIRTUAL ONE LOFT <br />
                         RACING <br />
-                        <img src={playstore} className="play"  alt="" />
+                        <a
+                        href="https://play.google.com/store/apps/details?id=com.COMPUPIGEON&gl=ZA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img src={playstore} className="play" alt="" />
+                      </a>
                         <br />
                         <br />
                         <button
@@ -339,9 +401,9 @@ function Slider() {
                       justifyContent: "center",
                     }}
                   >
-                     <img src={cup} className=" cup"  alt="" />
+                    <img src={cup} className=" cup" alt="" />
                     <p
-                      style={{ textAlign: "center", }}
+                      style={{ textAlign: "center" }}
                       className="slideteaxt w-400"
                       id="slidetextID"
                     >
@@ -362,7 +424,13 @@ function Slider() {
                     >
                       Start Racing Now
                     </button>
-                    <img src={playstore} className="play"  alt="" />
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.COMPUPIGEON&gl=ZA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img src={playstore} className="play" alt="" />
+                      </a>
                   </div>
 
                   <img src={SlideIcon3} className="iconslide4" />

@@ -7,10 +7,10 @@
 
 #truckdiv {
     background-color: #e6e7e8;
-    width:405px;
+  padding: 10px;
     height: auto;
     border-radius: 0px 0px 20px 20px;
-    margin-left: -12px;
+    
 }
 
 #onebtn {
@@ -22,12 +22,19 @@
     color: black !important;
     background-color: white !important;
 }
-
+.flex_col{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+#videosectionmain .container{
+    padding: 0!important;
+}
 .truckbutn {
     background-color: #c7c7c7;
     border: solid 1px #c7c7c7;
-    height: 35px;
-    width: 176px;
+
+    width: 100%;
     color: black;
     font-weight: 700;
     font-size: small;
@@ -36,16 +43,11 @@
 }
 
 .truckbutn:hover {
-    color: black !important;
-    background-color: white !important;
+    color: white !important;
+    background-color: red !important;
 }
 
-#truckimg {
-    margin-left: 25px;
-    margin-top: 10px;
-    width: 80%;
-    margin-bottom: 30px;
-}
+
 
 #videomain {
     width: 260px;
@@ -61,9 +63,15 @@
 
 #Vsectimg {
     margin-left: -15px;
-    margin-Top: 10px
+    margin-Top: 10px;
+    width:100%;
+    height: 120px;
+    object-fit: contain;
+    opacity: .2;
 }
-
+#Vsectimg:hover{
+    opacity: 1;
+}
 #alltext {
     color: black;
     font-size: small;
@@ -251,6 +259,7 @@
 }
 
 .middlbody {
+    padding-bottom: 10px;
     background-color: #0057e1;
     height: auto;
     width: 100%;
@@ -313,11 +322,30 @@
     height: 27px;
     /* background-color: red; */
 }
+#enterrcGreen {
+    background-color: #0EAA3A;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    border: transparent;
+    border-radius: 20px;
+    width: 150px;
+    height: 27px;
+    /* background-color: red; */
+}
 
 #enterrc:hover {
     background-color: red;
 }
 
+#enterrcGreen:hover {
+    background-color: red;
+}
+.grid_col{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
 #CreditR {
     font-size: x-small;
 }
@@ -375,3 +403,108 @@
     right: 0;
     margin-right: 5px !important;
 }
+
+
+.tableHehigt{
+    height: 450px;
+}
+.grid_col_3{
+    display: none;
+}
+.grid_col_2{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .buyCbutn {
+       margin-top: 10px;
+       
+    }
+    .table{
+        padding-top: 15px;
+    }
+    .table>:not(caption)>*>*{
+        font-size: 12px!important;
+    }
+  .mob_hidden{
+    display: none;
+  }
+    #truckdiv img{
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .grid_col{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #Vsectimg{
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .live_stream{
+        font-size: 11px;
+    }
+    .buyC{
+        margin-top: 20px;
+      margin-right: 10px;
+        width: 130px;
+        height: 30px;
+        font-size: 11px;
+    }
+#selectPbutn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    border-bottom: solid white 1px !important;
+    font-size: 11px;
+    font-weight: 500;
+}
+    .grid_col{
+       
+        display: none;
+       
+    }
+    #onebtn{
+        font-size: 11px;
+        padding: 10px 0;
+    }
+    .truckbutn{
+        padding: 10px 0;
+    }
+    .grid_col_3{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid_col_2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  .tableHehigt{
+    padding-top: 20px;
+    height: 270px;
+  }
+    #truckdiv img{
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+    }
+#truckdiv{
+    border-radius: 0px;
+}
+    #Vsectimg{
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .flex_col{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+  }

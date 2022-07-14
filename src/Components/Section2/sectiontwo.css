@@ -11,8 +11,23 @@
     border-radius: 10px 10px 0px 0px;
     display: flex;
     /* justify-content: center; */
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
+}
+.sLeft{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+.sRight{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 #profilepic{
     width: 70px;
@@ -69,6 +84,7 @@
 #sectionhead{
     color: white;
     font-weight: bold;
+    font-size: 18px;
     /* margin-left: 110px; */
     /* margin-right: -100px; */
 }
@@ -83,14 +99,12 @@
 }
 .texx{
     color: white;
-    font-weight: 700;
-    font-size: small;
+    font-weight: 500;
+    font-size: 12px;
 
     /* margin-bottom: -60px !important; */
 }
-#texxt{
-    width: 300px;
-}
+
 #mannimg{
     width: 55px;
 }
@@ -142,3 +156,100 @@
 .margin{
     margin-bottom: 20px;
 }
+
+.sLeft__mob{
+    display: none;
+}
+.sRight__mob{
+    display: none;
+}
+.col-5_mob{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 4px;
+}
+@media only screen and (max-width: 768px) {
+    #sectionman{
+      
+        margin-top: 10px;
+        margin-bottom: 6px;
+        background-color: #003a96;
+        /* width: 100% !important; */
+        height: auto;
+        /* position: absolute; */
+        /* top: 105px; */
+        right: 0;
+        left: 0;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        /* justify-content: center; */
+        padding: 20px 0;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    .sLeft{
+        display: grid;
+       grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    
+       
+    }
+    .sRight{
+        display: grid;
+       grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    #sectionman{
+     
+        margin-top: 10px;
+        margin-bottom: 6px;
+        background-color: #003a96;
+        /* width: 100% !important; */
+        height: auto;
+        /* position: absolute; */
+        /* top: 105px; */
+        right: 0;
+        left: 0;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        /* justify-content: center; */
+        padding: 20px 0;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    .sLeft{
+        display: none;  
+    }
+    .sRight{
+        display: none;
+    }
+    .sLeft__mob{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       
+gap: 10px;
+       
+    }
+    .sRight__mob{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+         gap: 5px;
+    }
+    .sLeft__mob #racemain{
+        padding-top: 20px;
+    }
+    .left_section{
+        grid-column: 2 / span 4;
+    }
+  }

@@ -6,20 +6,19 @@
     /* top: 230px;
     right: 0;
     left: 0; */
-    display: flex;
-    justify-content: space-between !important;
+
 }
 
 .buttons {
-    width: 199px;
+    width: 100%;
     border: solid 1px #c7c7c7;
     border-radius: 8px;
     background-color: #c7c7c7;
     color: black;
     height: 35px;
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 14px;
-    font-size:small;
+    font-size: small;
 }
 
 .buttons:hover {
@@ -36,7 +35,8 @@
 #loby:hover {
     background-color: #c7c7c7 !important;
 }
-.cashiericon{
+
+.cashiericon {
     width: 20px;
     margin-left: 3px;
 }
@@ -114,20 +114,20 @@
 
 /* CASHIER Popup */
 
-#CashierH{
+#CashierH {
     background-color: #003a96;
 }
 
-#cashierbutn{
+#cashierbutn {
     background-color: transparent;
     border: transparent;
     color: white;
-    border-bottom:solid white 1px !important ;
+    border-bottom: solid white 1px !important;
     font-size: small;
     font-weight: 500;
 }
 
-#mainCashier{
+#mainCashier {
     background-color: #0057e1;
     width: 95%;
     height: 500px;
@@ -136,14 +136,15 @@
     justify-content: center;
 }
 
-#middleCashier{
+#middleCashier {
     background-color: white;
     border-radius: 10px;
     width: 95%;
     height: 490px;
     margin-top: 5px;
 }
-.Cose{
+
+.Cose {
     width: 30px;
     position: relative;
 
@@ -153,4 +154,40 @@
     /* left: 0; */
     margin-right: 5px !important;
     margin-top: 20px !important;
+}
+
+.mobShow {
+    display: none;
+}
+
+.deskShow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .deskShow {
+        display: none;
+    }
+
+    .mobShow {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        width: 100%,
+    }
+
+    .buttons {
+        width: 100%;
+        border: solid 1px #c7c7c7;
+        border-radius: 0px;
+        background-color: #c7c7c7;
+        color: black;
+        height: 35px;
+        font-weight: bold;
+        margin-bottom: 14px;
+        font-size: small;
+    }
+
 }

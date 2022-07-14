@@ -4,7 +4,9 @@ import './footer.css'
 import fullogo from "./../../Images/greyfgfgf.jpg"
 import logoo from "./../../Images/logo.jpg"
 import services from "./../../Images/vrdrvrd.jpg"
+import { useNavigate } from "react-router-dom";
 function Footer() {
+    const navigate = useNavigate()
     return (
         <div>
             <Container fluid id="Footermain">
@@ -17,8 +19,9 @@ function Footer() {
                             </Col>
                             <Col sm className="pags"><img src={services} />
                                 <button className="servicespage">About Us</button>
-                                <p className="fotertx">Privacy Policy<br />
-                                    Terms and Conditions</p>
+                                <p className="fotertx"><span onClick={()=>navigate("/privacy-policy")} style={{cursor:"pointer"}}>Privacy Policy</span><br />
+                                <span onClick={()=>navigate("/terms-and-conditions")} style={{cursor:"pointer"}}>Terms and Conditions</span>
+                                    </p>
                             </Col>
                             <Col sm className="pags"><img src={services} />
                                 <button className="servicespage">Our Product</button>

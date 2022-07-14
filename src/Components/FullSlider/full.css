@@ -41,8 +41,13 @@
 #hafuldivtxt {
     color: black;
     margin-top: 5px;
+    font-size: 15px;
 }
-
+.put_grid{
+    padding: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 .color {
     color: red;
     margin-right: 10px;
@@ -306,3 +311,24 @@
     font-weight: 400;
     margin-top: 20px;
 }
+.put_grid_mob{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .put_grid{
+        padding: 5px 0;
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .put_grid_mob{
+        padding: 5px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #hafuldivtxt {
+        color: black;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+  }

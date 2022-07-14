@@ -28,3 +28,16 @@ input::placeholder{
 .table>:not(:first-child){
   border-top: 0px!important;
 }
+p{
+  padding-bottom: none!important;
+  margin-bottom: none!important;
+}
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: #c0de5d!important;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+  stroke: red!important;
+}
+.kldtdA{
+  fill: #0eaa3a!important;
+}

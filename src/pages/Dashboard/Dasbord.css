@@ -85,3 +85,20 @@
     
     }
   }
+  .styleGrid1{
+    display: none;
+
+}
+@media only screen and (max-width: 600px) {
+    .styleGrid{
+        display: none;
+      
+    }
+  
+    .styleGrid1{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        align-items: center;
+        gap: 30px;
+    }
+  }

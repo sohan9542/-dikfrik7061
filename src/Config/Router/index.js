@@ -11,6 +11,9 @@ import Dashboard from "./../../pages/Dashboard/Dashbord"
 import Race from "./../../pages/Race/Race"
 import Howto from "../../pages/howto/Howto";
 import Statistics from "../../pages/statistics/Statistics";
+import Term from "../../pages/footerpage/Term";
+import Privacy from "../../pages/footerpage/Privecy";
+
 
 let Router = () => {
     return (
@@ -23,6 +26,8 @@ let Router = () => {
                 <Route path="/Contact" element={< Contact />} />
                 <Route path="/Dashboard" element={< Dashboard />} />
                 <Route path="/Race" element={< Race />} />
+                <Route path="/terms-and-conditions" element={< Term />} />
+                <Route path="/privacy-policy" element={< Privacy />} />
             </Routes>
         </BrowserRouter>
     )
