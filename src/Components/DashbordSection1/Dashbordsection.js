@@ -165,24 +165,22 @@ function Sec({smShow, setSmShow, modaltype, setmodaltype}) {
                     <div>
                       <div id="depostm">
                         <p id="amountT">SELECT YOUR AMOUNT</p>
-                        <Container style={{ width: "100%", display: "flex" }}>
-                          <Row>
-                            <Col sm>
+                        <Container style={{ width: "100%" }}>
+                          <div className="d-flex">
+                           
                               <button className="amountb">30</button>
-                            </Col>
-                            <Col sm>
+                          
+                          
                               <button className="amountb">50</button>
-                            </Col>
-                            <Col sm>
+                          
                               <button className="amountb">100</button>
-                            </Col>
-                            <Col sm>
+                          
+                          
                               <button className="amountb">250</button>
-                            </Col>
-                            <Col sm>
+                         
                               <button className="amountb">500</button>
-                            </Col>
-                          </Row>
+                        
+                          </div>
                         </Container>
                         <div id="maincard">
                           <img src={card} className="cardimg" />
@@ -352,33 +350,31 @@ function Sec({smShow, setSmShow, modaltype, setmodaltype}) {
                     <div>
                       <div id="depostm">
                         <p id="amountT">SELECT YOUR AMOUNT</p>
-                        <Container style={{ width: "100%", display: "flex" }}>
-                          <Row>
-                            <Col sm>
-                              <button className="amountb">30</button>
-                            </Col>
-                            <Col sm>
-                              <button className="amountb">50</button>
-                            </Col>
-                            <Col sm>
-                              <button className="amountb">100</button>
-                            </Col>
-                            <Col sm>
-                              <button className="amountb">250</button>
-                            </Col>
-                            <Col sm>
-                              <button className="amountb">500</button>
-                            </Col>
-                          </Row>
+                        <Container style={{ width: "100%" }}>
+                        <div className="d-flex mt-2" style={{ width: "100%", justifyContent:"space-around" }}>
+                           
+                           <button className="amountb">30</button>
+                       
+                       
+                           <button className="amountb">50</button>
+                       
+                           <button className="amountb">100</button>
+                       
+                       
+                           <button className="amountb">250</button>
+                      
+                           <button className="amountb">500</button>
+                     
+                       </div>
                         </Container>
                         <div id="maincard">
                           <img src={card} className="cardimg" />
 
                           <img src={priceimg} className="cardimg" />
                         </div>
-                        <div id="lastmn">
+                        <div style={{ width: "100%", display:"flex", alignItems:"center", flexDirection:"column" }}>
                           <button id="makeD">MAKE A DEPOSIT</button>
-                          <br />
+                     
                           <p id="paypaltext">PAY USING PAYPAL</p>
                           <img src={lastimg} id="lastimg" />
                         </div>

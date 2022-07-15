@@ -189,5 +189,15 @@
         margin-bottom: 14px;
         font-size: small;
     }
+    #detailmain {
+        width: 100%;
+        background-color: #1d67cd;
+        height: auto;
+        border-radius: 10px;
+        height: auto;
+    }
+    .formcol {
+        margin-left: 5px;
+    }
 
 }
