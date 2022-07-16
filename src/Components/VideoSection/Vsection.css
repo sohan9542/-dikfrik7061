@@ -7,10 +7,10 @@
 
 #truckdiv {
     background-color: #e6e7e8;
-  padding: 10px;
+    padding: 10px;
     height: auto;
     border-radius: 0px 0px 20px 20px;
-    
+
 }
 
 #onebtn {
@@ -22,14 +22,17 @@
     color: black !important;
     background-color: white !important;
 }
-.flex_col{
+
+.flex_col {
     display: flex;
     align-items: flex-start;
     gap: 30px;
 }
-#videosectionmain .container{
-    padding: 0!important;
+
+#videosectionmain .container {
+    padding: 0 !important;
 }
+
 .truckbutn {
     background-color: #c7c7c7;
     border: solid 1px #c7c7c7;
@@ -64,14 +67,16 @@
 #Vsectimg {
     margin-left: -15px;
     margin-Top: 10px;
-    width:100%;
+    width: 100%;
     height: 120px;
     object-fit: contain;
     opacity: .2;
 }
-#Vsectimg:hover{
+
+#Vsectimg:hover {
     opacity: 1;
 }
+
 #alltext {
     color: black;
     font-size: small;
@@ -322,6 +327,7 @@
     height: 27px;
     /* background-color: red; */
 }
+
 #enterrcGreen {
     background-color: #0EAA3A;
     color: white;
@@ -341,11 +347,13 @@
 #enterrcGreen:hover {
     background-color: red;
 }
-.grid_col{
+
+.grid_col {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+
 #CreditR {
     font-size: x-small;
 }
@@ -405,106 +413,169 @@
 }
 
 
-.tableHehigt{
+.tableHehigt {
     height: 450px;
 }
-.grid_col_3{
+
+.grid_col_3 {
     display: none;
 }
-.grid_col_2{
+
+.grid_col_2 {
     display: none;
 }
+
+.modal_desk {
+    display: flex;
+}
+
+.modal_mob {
+    display: none;
+}
+
+#middl_mob {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .buyCbutn {
-       margin-top: 10px;
-       
+        margin-top: 10px;
+
     }
-    .table{
+
+    .table {
         padding-top: 15px;
     }
-    .table>:not(caption)>*>*{
-        font-size: 12px!important;
+
+    .table>:not(caption)>*>* {
+        font-size: 12px !important;
     }
-  .mob_hidden{
-    display: none;
-  }
-    #truckdiv img{
+
+    .mob_hidden {
+        display: none;
+    }
+
+    #truckdiv img {
         width: 200px;
         height: 100px;
         object-fit: contain;
     }
 
-    .grid_col{
+    .grid_col {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-    #Vsectimg{
+
+    #Vsectimg {
         width: 200px;
         height: 100px;
         object-fit: contain;
     }
-  }
+}
+
 @media only screen and (max-width: 600px) {
-    .live_stream{
+    #creditsavalble {
+        margin-bottom: 0 !important;
+    }
+
+    #middl {
+        display: none;
+    }
+
+    #middl_mob {
+        display: block;
+        background-color: white;
+        width: 95%;
+        height: 530px;
+        border-radius: 12px;
+        margin-top: 7px;
+    }
+
+    .select_pegion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .modal_mob {
+        display: flex;
+    }
+
+    .modal_desk {
+        display: none;
+    }
+
+    .live_stream {
         font-size: 11px;
     }
-    .buyC{
+
+    .buyC {
         margin-top: 20px;
-      margin-right: 10px;
+        margin-right: 10px;
         width: 130px;
         height: 30px;
         font-size: 11px;
     }
-#selectPbutn {
-    background-color: transparent;
-    border: transparent;
-    color: white;
-    border-bottom: solid white 1px !important;
-    font-size: 11px;
-    font-weight: 500;
-}
-    .grid_col{
-       
-        display: none;
-       
+
+    #selectPbutn {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        border-bottom: solid white 1px !important;
+        font-size: 11px;
+        font-weight: 500;
     }
-    #onebtn{
+
+    .grid_col {
+
+        display: none;
+
+    }
+
+    #onebtn {
         font-size: 11px;
         padding: 10px 0;
     }
-    .truckbutn{
+
+    .truckbutn {
         padding: 10px 0;
     }
-    .grid_col_3{
+
+    .grid_col_3 {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .grid_col_2{
+
+    .grid_col_2 {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-  .tableHehigt{
-    padding-top: 20px;
-    height: 270px;
-  }
-    #truckdiv img{
+
+    .tableHehigt {
+        padding-top: 20px;
+        height: 370px;
+    }
+
+    #truckdiv img {
         width: 100%;
         height: 100px;
         object-fit: contain;
     }
-#truckdiv{
-    border-radius: 0px;
-}
-    #Vsectimg{
+
+    #truckdiv {
+        border-radius: 0px;
+    }
+
+    #Vsectimg {
         width: 200px;
         height: 100px;
         object-fit: contain;
     }
-    .flex_col{
+
+    .flex_col {
         display: grid;
         grid-template-columns: 1fr;
-      }
-  }
+    }
+}

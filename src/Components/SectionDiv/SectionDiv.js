@@ -193,6 +193,231 @@ function SectionDiv() {
                                 <Link to="/Race"><button className="postebutn">GO TO RACE</button></Link>
                             </div>
                         </div>
+                        <div id="mainlne__mob">
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+                            <div className="linesss">
+                                <img src={flags} className="flg" />
+                                
+                                <img src={boximg1} className="cricleimg" />
+                          <div>
+                          <p className="lineestx">
+                                    Pattaya One Loft</p>
+                                <p className="lineestx">
+                                RACE # 5</p>
+                          </div>
+                               
+                          <Link to="/Race"><button className="postebutn">Enter</button></Link>
+                            </div>
+
+                         
+                        </div>
                     </div>
 
     )

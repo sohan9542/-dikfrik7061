@@ -389,7 +389,7 @@ function Vsection({
       >
         <Modal.Header style={{ backgroundColor: "#003a96" }}>
           <Modal.Title id="example-modal-sizes-title-sm" className="smallman">
-            <div style={{ padding: "8px", display: "flex", gap: "10px" }}>
+          <div className="modal_desk" style={{ padding: "8px", gap: "10px" }}>
               <div>
                 <h6 style={{ fontWeight: "500", color: "white" }}>RACE</h6>
                 <div
@@ -474,6 +474,96 @@ function Vsection({
                 <h6 style={{ color: "white", fontSize: "12px" }}>
                   Saturday, May 21, 2022, 6:00:00 AM GMT+2
                 </h6>
+              </div>
+            </div>
+            <div className=" modal_mob" style={{ padding: "8px", gap: "10px" }}>
+              <div>
+                <h6 style={{ fontWeight: "500", color: "white" }}>RACE</h6>
+                <div
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    background: "white",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "20px",
+                    color: "red",
+                  }}
+                >
+                  17
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <img
+                    src={china}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      marginLeft: "18px",
+                    }}
+                  />
+                    <img
+                    src={inslide}
+                    style={{ width: "50px", height: "50px" }}
+                    className="imgsiz"
+                  />
+                    
+                </div>
+                {/* <div
+                  style={{
+                    display: "flex",
+
+                    gap: "10px",
+                  }}
+                >
+                
+                  <div>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Race Name:
+                    </h6>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Distance
+                    </h6>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Liberation Date and Time:
+                    </h6>
+                  </div>
+                </div> */}
+              </div>
+              <div>
+              <h6
+                  style={{
+                    color: "white",
+                    fontSize: "14px",
+                    paddingTop: "8px",
+                    fontWeight:"700"
+                  }}
+                >
+                 LIVE STREAM
+                </h6>
+                <h6  style={{ color: "white", fontSize: "12px", marginBottom:"0" }}>
+                  Race: <br /> 
+                  PATAYA ONE LOFT RACE
+                </h6>
+                <h6 style={{ color: "white", fontSize: "12px" }}>
+                  Race Name: <br /> 
+                  PATAYA ONE LOFT RACE
+                </h6>
+                
               </div>
             </div>
             <div>
@@ -825,7 +915,7 @@ function Vsection({
       >
         <Modal.Header style={{ backgroundColor: "#003a96" }}>
           <Modal.Title id="example-modal-sizes-title-sm" className="smallman">
-            <div style={{ padding: "8px", display: "flex", gap: "10px" }}>
+            <div className="modal_desk" style={{ padding: "8px", gap: "10px" }}>
               <div>
                 <h6 style={{ fontWeight: "500", color: "white" }}>RACE</h6>
                 <div
@@ -912,7 +1002,97 @@ function Vsection({
                 </h6>
               </div>
             </div>
-            <div>
+            <div className=" modal_mob" style={{ padding: "8px", gap: "10px" }}>
+              <div>
+                <h6 style={{ fontWeight: "500", color: "white" }}>RACE</h6>
+                <div
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    background: "white",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "20px",
+                    color: "red",
+                  }}
+                >
+                  17
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: "5px",
+                  }}
+                >
+                  <img
+                    src={china}
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      marginLeft: "18px",
+                    }}
+                  />
+                    <img
+                    src={inslide}
+                    style={{ width: "50px", height: "50px" }}
+                    className="imgsiz"
+                  />
+                    
+                </div>
+                {/* <div
+                  style={{
+                    display: "flex",
+
+                    gap: "10px",
+                  }}
+                >
+                
+                  <div>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Race Name:
+                    </h6>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Distance
+                    </h6>
+                    <h6 style={{ color: "white", fontSize: "12px" }}>
+                      Liberation Date and Time:
+                    </h6>
+                  </div>
+                </div> */}
+              </div>
+              <div>
+              <h6
+                  style={{
+                    color: "white",
+                    fontSize: "14px",
+                    paddingTop: "8px",
+                    fontWeight:"700"
+                  }}
+                >
+                 MY LOFT RESULTS
+                </h6>
+                <h6  style={{ color: "white", fontSize: "12px", marginBottom:"0" }}>
+                  Race: <br /> 
+                  PATAYA ONE LOFT RACE
+                </h6>
+                <h6 style={{ color: "white", fontSize: "12px" }}>
+                  Race Name: <br /> 
+                  PATAYA ONE LOFT RACE
+                </h6>
+                
+              </div>
+            </div>
+            <div >
               <img
                 src={closeicon}
                 className="ose"
@@ -1014,7 +1194,7 @@ function Vsection({
                     <div style={{ width: "100px" }}>
                       <p id="creditsavalble">COST IN CREDITS</p>
                       <div id="costs">
-                        <p className="avalbltnumber">2354</p>
+                        <p className="avalbltnumber">2350</p>
                       </div>
                     </div>
                   </Col>
@@ -1213,6 +1393,208 @@ function Vsection({
                     </Modal>
                   </Col>
                 </Row>
+              </Container>
+              <div
+                className="tableHehigt"
+                style={{ overflowY: "scroll", width: "100%" }}
+              >
+                <Table responsive>
+                  <thead
+                    style={{
+                      background: "red",
+                      color: "white",
+                      borderBottom: "none",
+                    }}
+                  >
+                    <tr>
+                      {[
+                        "#",
+                        "A",
+                        "Country",
+                        "CI",
+                        "Fancier",
+                        "Ring Num",
+                        "Pigeon Name",
+
+                        "Credits",
+                        "View",
+                        "Select",
+                      ].map((item, index) => (
+                        <th>{item}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((n) => (
+                      <tr>
+                        <td style={{ fontSize: "12px" }}>1</td>
+                        <td style={{ fontSize: "12px" }}>
+                          <div
+                            style={{
+                              width: "5px",
+                              height: "5px",
+                              background: "red",
+                              borderRadius: "50%",
+                              marginTop: "10px",
+                            }}
+                          ></div>
+                        </td>
+                        <td style={{ fontSize: "12px" }}>
+                          <img
+                            style={{ width: "18px", objectFit: "contain" }}
+                            src="https://static.wixstatic.com/media/416fe9_cd825177b4d14a7a9ea5e7def3d05736~mv2.png/v1/fill/w_29,h_29,al_c,lg_1,q_85,enc_auto/BELGIUM.png"
+                            alt=""
+                          />
+                        </td>
+                        <td style={{ fontSize: "12px" }}>
+                          <img
+                            style={{ width: "18px", objectFit: "contain" }}
+                            src="https://static.wixstatic.com/media/416fe9_ceb66987863240d395b0511c7bad1420~mv2.png/v1/fill/w_40,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/tbtrtt.png"
+                            alt=""
+                          />
+                        </td>
+                        <td style={{ fontSize: "12px" }}>
+                          alfons kalus and family
+                        </td>
+                        <td style={{ fontSize: "12px" }}>BN 22 3749837</td>
+                        <td style={{ fontSize: "12px" }}>MR PERFECT</td>
+                        <td style={{ fontSize: "12px" }}>123</td>
+                        <td
+                          onClick={() => {
+                            setViewp(true);
+                            setSmShow(false);
+                          }}
+                          style={{ fontSize: "12px" }}
+                        >
+                          View
+                        </td>
+                        <td style={{ fontSize: "12px" }}>
+                          <input type="checkbox" name="" id="" />
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </div>
+            </div>
+            <div id="middl_mob">
+              <Container style={{ height: "auto" }}>
+                <div className="select_pegion">
+                  <div >
+                    <div style={{ width: "100px" }}>
+                      <p id="creditsavalble">
+                        CREDITS AVAIALABLE 
+                      </p>
+                      <div className="Avalable">
+                      <p className="avalbltnumber">2354</p>
+                    </div>
+                    </div> 
+                  </div>
+                  <div >
+                  <p id="creditsavalble">
+                  PIGEONS SELECTED
+                      </p>
+                    <div className="Avalable">
+                      <p className="avalbltnumber">9</p>
+                    </div>
+                  </div>
+                  <div >
+                    <p id="cost">COST IN CREDITS</p>
+                    <div id="costs">
+                      <p className="avalbltnumber">2354</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex", flexDirection:"column"}}>
+                    <button
+                      className="buyCbutn"
+                      onClick={() => {
+                        setSmShow(false);
+                        setDmShow(true);
+                      }}
+                    >
+                      BUY CREDITS
+                    </button>
+
+                    <button
+                      className="buyCbutn"
+                      onClick={() => {
+                        setSmShow(false);
+                        setMgShow(true);
+                      }}
+                    >
+                      CONFIRM ENTRY
+                    </button>
+                    <Modal show={mgshow} onHide={() => setMgShow(false)}>
+                      <Modal.Header
+                        closeButton
+                        style={{ backgroundColor: "#003a96" }}
+                      >
+                        <Modal.Title style={{ width: "100%" }}>
+                          <div style={{ display: "flex" }}>
+                            <img
+                              src={inslide}
+                              style={{ width: "60px", height: "60px" }}
+                            />
+                            <div style={{ marginLeft: "7px" }}>
+                              <img src={china} style={{ width: "30px" }} />
+                              <p className="patya">PATAYA ONE LOFT</p>
+                            </div>
+                          </div>
+                        </Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body
+                        style={{
+                          overflow: "hidden",
+                          height: "600px",
+                          backgroundColor: "#003a96",
+                        }}
+                      >
+                        <div id="mainstock">
+                          <div id="midl">
+                            <Container
+                              style={{
+                                height: "auto",
+                                marginTop: "15px",
+                              }}
+                            >
+                              <Row>
+                                <Col sm>
+                                  <div style={{ width: "100px" }}>
+                                    <p id="creditsavalble">COST IN CREDITS</p>
+                                    <div id="costs">
+                                      <p className="avalbltnumber">2354</p>
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col sm>
+                                  <p id="creditsavalble">CREDITS AVAILABLE</p>
+                                  <div className="Avalable">
+                                    <p className="avalbltnumber">1420</p>
+                                  </div>
+                                </Col>
+                                <Col sm>
+                                  <button className="buyC">BUY CREDITS</button>
+                                  <button className="buyC">
+                                    YES STOCK MY LOFT
+                                  </button>
+                                </Col>
+                              </Row>
+                            </Container>
+                            <div
+                              style={{
+                                width: "100%",
+                                display: "flex",
+                                justifyContent: "center",
+                              }}
+                            >
+                              <div id="alllist"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </Modal.Body>
+                    </Modal>
+                  </div>
+                </div>
               </Container>
               <div
                 className="tableHehigt"

@@ -98,12 +98,12 @@ const Full = ({
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
   useEffect(() => {
- if(viewp){
-  setShow(true)
-  setViewp(false)
- }
-  }, [viewp])
-  
+    if (viewp) {
+      setShow(true);
+      setViewp(false);
+    }
+  }, [viewp]);
+
   return (
     <div id="mainfull">
       <div id="mainfuldivm">
@@ -165,12 +165,15 @@ const Full = ({
             </div>
             <div className="put_grid_mob">
               <div style={{ display: "flex", flexDirection: "row" }}>
-            
-                <h6 id="hafuldivtxt">MY LOFT FOR THIS RACE</h6>
+                <h6
+                  id="hafuldivtxt"
+                  style={{ fontWeight: "700", fontSize: "13px" }}
+                >
+                  MY LOFT FOR THIS RACE
+                </h6>
               </div>
-
+              <div></div>
               <div style={{ display: "flex", flexDirection: "row" }}>
-               
                 <h6 id="hafuldivtxt">
                   <span className="color">9</span> PIGEON/S IN BASKET
                 </h6>
@@ -183,14 +186,12 @@ const Full = ({
               </div>
 
               <div style={{ display: "flex", flexDirection: "row" }}>
-               
                 <h6 id="hafuldivtxt">
                   <span className="color">1250</span> CREDITs LEFT
                 </h6>
               </div>
 
               <div style={{ display: "flex", flexDirection: "row" }}>
-               
                 <h6
                   onClick={() => setControllFull2(true)}
                   style={{ cursor: "pointer" }}
@@ -229,7 +230,7 @@ const Full = ({
                       width: "100%",
                       display: "flex",
                       justifyContent: "center",
-                      marginTop: "80px",
+                      marginTop: "20px",
                       flexDirection: "column",
                       alignItems: "center",
                     }}
@@ -254,6 +255,7 @@ const Full = ({
                       marginBottom: "50px",
                       marginTop: "30px",
                     }}
+                    className="view_desk"
                   >
                     <Container>
                       <Row>
@@ -309,6 +311,51 @@ const Full = ({
                       </Row>
                     </Container>
                   </div>
+                  <div
+                    style={{
+                      width: "100%",
+                      marginBottom: "50px",
+                    
+                    }}
+                    className="view_desk_mob"
+                  >
+                    <div style={{ display: "flex" }}>
+                      <img
+                        style={{ width: "80px", objectFit: "contain" }}
+                        src={Pigeon}
+                      />
+                      &nbsp; &nbsp;
+                      <p className="BOTNAR">
+                        <img
+                          style={{ width: "40px" }}
+                          src="https://static.wixstatic.com/media/416fe9_402d0ce51b33480eb622d873a0143918~mv2.png/v1/fill/w_33,h_33,al_c,lg_1,q_85,enc_auto/china.png"
+                          alt=""
+                        />
+                        <br /> BOTNAR STEFAN
+                        <br />
+                        #003a96
+                        <br />
+                        CREDIT VALUE &nbsp; &nbsp;{" "}
+                        <span className="Cvalue">347</span>
+                      </p>
+                    </div>
+                    <div>
+                      <div>
+                        <div style={{ display: "flex", gap: "10px" }}>
+                          <div
+                            style={{
+                              width: 80,
+                              height: 80,
+                              position: "relative",
+                            }}
+                          >
+                            <CircularProgressbar value={66} />
+                            <div className="percentage">12%</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <BarChart data={data} />
                 </div>
@@ -340,7 +387,7 @@ const Full = ({
                 <div id="lawmain">
                   <img src={LAW} className="lawimg" />
                 </div>
-                <Container style={{ width: "100%" }}>
+                <Container className=" desk_show" style={{ width: "100%" }}>
                   <Row>
                     <Col sm>
                       <img src={Pigeon} />
@@ -365,6 +412,34 @@ const Full = ({
                       </p>
                     </Col>
                   </Row>
+                </Container>
+                <Container className=" mob_show" style={{ width: "100%" }}>
+                  <div style={{ width: "100%", display:"flex", gap:"10px" }}>
+           
+                  <div>
+                  <img style={{ width: "100px" }}  src={Pigeon} />
+                  </div>
+             
+                    <div>
+                      <p className="canadatext">
+                        &nbsp; &nbsp; &nbsp;{" "}
+                        <img src={Canada} className="canadaimg" />
+                        <br />
+                        ALFONS KLAUS <br />
+                        THE PIEGON NAME <br />
+                        BX 233 E45455 <br />
+                        THE PIEGON NAME <br />
+                      </p>
+                      {/* <br /> */}
+                      <p className="seconcanadatx">
+                        You Paid &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; <span className="numberred">456</span>
+                        <br />
+                        Current Value &nbsp; &nbsp; &nbsp;{" "}
+                        <span className="numberred">4543</span>
+                      </p>
+                    </div>
+                  </div>
                 </Container>
                 <div id="maindd">
                   <div id="half" style={{ padding: "0 20px" }}>
@@ -401,11 +476,13 @@ const Full = ({
           <Slider {...settings}>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -415,84 +492,66 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
-                </div>
-              </div>
-            </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
 
-            <div className="slidecrd">
-              <div className="toppp">
-                <span className="Rank">RAKING:</span>
-                <div className="mainbox">
-                  <span className="one1">1</span>
-                </div>
-                <div className="mainbox"></div>
-              </div>
-              <div style={{ display: "flex" }}>
-                <img src={Pigeon} className="pigeonn" />
-                <p className="texxxt">
-                  KUNAT <br />
-                  All Neran Left <br />
-                  KW WATANYA 21-798177
-                </p>
-              </div>
-              <div style={{ display: "flex" }}>
-                <p className="botomtex">
-                  CREDIT VALLUE <br />
-                  <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
-                </p>
-                <div
-                  style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
-                  }}
-                >
-                  <CircularProgressbar value={70} />
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -502,40 +561,66 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
+
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -545,40 +630,66 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
+
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -588,40 +699,66 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
+
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -631,40 +768,66 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
+
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="slidecrd">
               <div className="toppp">
-                <span className="Rank">RAKING:</span>
+                <span className="Rank">RAKING :</span>
                 <div className="mainbox">
                   <span className="one1">1</span>
                 </div>
-                <div className="mainbox"></div>
+                <div className="mainbox">
+                  <span className="one1">1</span>
+                </div>
               </div>
               <div style={{ display: "flex" }}>
                 <img src={Pigeon} className="pigeonn" />
@@ -674,73 +837,54 @@ const Full = ({
                   KW WATANYA 21-798177
                 </p>
               </div>
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: "100%",
+                  justifyContent: "center",
+                }}
+              >
                 <p className="botomtex">
                   CREDIT VALLUE <br />
                   <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
                 </p>
                 <div
                   style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
+                    display: "flex",
+                    alignItems: "center",
+                    width: "100%",
+                    justifyContent: "center",
+                    gap: "10px",
                   }}
                 >
-                  <CircularProgressbar value={70} />
-                </div>
-              </div>
-            </div>
-            <div className="slidecrd">
-              <div className="toppp">
-                <span className="Rank">RAKING:</span>
-                <div className="mainbox">
-                  <span className="one1">1</span>
-                </div>
-                <div className="mainbox"></div>
-              </div>
-              <div style={{ display: "flex" }}>
-                <img src={Pigeon} className="pigeonn" />
-                <p className="texxxt">
-                  KUNAT <br />
-                  All Neran Left <br />
-                  KW WATANYA 21-798177
-                </p>
-              </div>
-              <div style={{ display: "flex" }}>
-                <p className="botomtex">
-                  CREDIT VALLUE <br />
-                  <span className="numbr">6898</span>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow(true)}>
-                    {" "}
-                    View Pigeon
-                  </button>
-                  <br />
-                  <button className="lastbutn" onClick={() => setShow1(true)}>
-                    Sell Pigeon
-                  </button>
-                </p>
-                <div
-                  style={{
-                    width: 50,
-                    height: 50,
-                    marginLeft: 20,
-                    marginRight: -200,
-                    marginTop: 20,
-                  }}
-                >
-                  <CircularProgressbar value={70} />
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <button className="lastbutn" onClick={() => setShow(true)}>
+                      {" "}
+                      View Pigeon
+                    </button>
+
+                    <button className="lastbutn" onClick={() => setShow1(true)}>
+                      Sell Pigeon
+                    </button>
+                  </div>
+                  <div
+                    style={{
+                      width: "50px",
+                      height: "50px",
+                      position: "relative",
+                    }}
+                  >
+                    <div className="percentage">70%</div>
+                    <CircularProgressbar value={70} />
+                  </div>
                 </div>
               </div>
             </div>

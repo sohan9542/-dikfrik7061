@@ -94,7 +94,18 @@
         display: none;
       
     }
-  
+    .body{
+        width: 100%;
+       padding-top: 20px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        gap: 15px;
+     
+        height: 324px;
+    }
     .styleGrid1{
         display: grid;
         grid-template-columns: repeat(12, 1fr);

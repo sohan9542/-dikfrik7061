@@ -143,10 +143,10 @@ function Section2({ smShow, setSmShow, modaltype, setmodaltype }) {
 
             <div
               style={{
-                paddingTop: "14px",
+           
                 display: "flex",
                 alignItems: "center",
-                gap: "20px",
+                gap: "10px",
               }}
             >
               <div className="texx">
@@ -163,40 +163,37 @@ function Section2({ smShow, setSmShow, modaltype, setmodaltype }) {
               </div>
             </div>
           </div>
-
-       
         </div>
         <div className=" sRight__mob">
-<div>
-<p id="balnce">Balance</p>
-  <div id="pric2main">
-    <img style={{ width: "20px", objectFit: "contain" }} src={Gold} />
-    <span id="pric2"> $ &nbsp; 450.00 </span>
-  </div>
-</div>
-<div style={{ display: "flex", flexDirection: "column" }}>
-
-  <button
-    className="ratd"
-    onClick={() => {
-      setSmShow(true);
-      setmodaltype("wallet");
-    }}
-  >
-    TOP OP WALLET
-  </button>
-  <button
-    className="ratd"
-    onClick={() => {
-      setSmShow(true);
-      setmodaltype("Withdraw");
-    }}
-  >
-    WITHDRAW
-  </button>
-</div>
+          <div>
+            <p id="balnce">Balance</p>
+            <div id="pric2main">
+              <img style={{ width: "20px", objectFit: "contain" }} src={Gold} />
+              <span id="pric2"> $ &nbsp; 450.00 </span>
+            </div>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <button
+              className="ratd"
+              onClick={() => {
+                setSmShow(true);
+                setmodaltype("wallet");
+              }}
+            >
+              TOP OP WALLET
+            </button>
+            <button
+              className="ratd"
+              onClick={() => {
+                setSmShow(true);
+                setmodaltype("Withdraw");
+              }}
+            >
+              WITHDRAW
+            </button>
+          </div>
         </div>
-      
+
         <Modal
           size="sm"
           show={smShow}
@@ -263,19 +260,19 @@ function Section2({ smShow, setSmShow, modaltype, setmodaltype }) {
                   <p id="amountT">SELECT YOUR AMOUNT</p>
                   <Container style={{ width: "100%", display: "flex" }}>
                     <div className=" col-5_mob">
-                      <div >
+                      <div>
                         <button className="amountb">30</button>
                       </div>
-                      <div >
+                      <div>
                         <button className="amountb">50</button>
                       </div>
-                      <div >
+                      <div>
                         <button className="amountb">100</button>
                       </div>
-                      <div >
+                      <div>
                         <button className="amountb">250</button>
                       </div>
-                      <div >
+                      <div>
                         <button className="amountb">500</button>
                       </div>
                     </div>
@@ -285,11 +282,19 @@ function Section2({ smShow, setSmShow, modaltype, setmodaltype }) {
 
                     <img src={priceimg} className="cardimg" />
                   </div>
-                  <div style={{display:"flex", flexDirection:"column", width:"100%", alignItems:"center", justifyContent:"center"}}>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      width: "100%",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
                     <button id="makeD">MAKE A DEPOSIT</button>
-                    
+
                     <p id="paypaltext">PAY USING PAYPAL</p>
-               
+
                     <img src={lastimg} id="lastimg" />
                   </div>
                 </div>
@@ -327,7 +332,6 @@ function Section2({ smShow, setSmShow, modaltype, setmodaltype }) {
           </Modal.Body>
         </Modal>
       </div>
-    
     </>
   );
 }

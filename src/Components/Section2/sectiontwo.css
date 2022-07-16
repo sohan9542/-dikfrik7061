@@ -1,4 +1,4 @@
-#sectionman{
+#sectionman {
     margin-top: 10px;
     margin-bottom: 6px;
     background-color: #003a96;
@@ -18,21 +18,25 @@
     justify-content: space-between;
     padding-right: 20px;
 }
-.sLeft{
+
+.sLeft {
     display: flex;
     align-items: center;
     gap: 40px;
-   
+
 }
-.sRight{
+
+.sRight {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-#profilepic{
+
+#profilepic {
     width: 70px;
 }
-#profilepicman{
+
+#profilepicman {
     width: 100px;
     height: 90px;
     background-color: #1d67cd;
@@ -41,20 +45,22 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    
+
 }
-#racemain{
+
+#racemain {
     margin-top: -30px;
 }
 
-.rac{
+.rac {
     color: white;
     font-weight: bold;
     margin-left: 30px;
     /* margin-top: -70px !important; */
     /* margin-bottom: 100px !important; */
 }
-#boxx{
+
+#boxx {
     background-color: white;
     width: 80px;
     height: 80px;
@@ -65,39 +71,46 @@
     margin-left: 14px;
     /* margin-top: -30px !important; */
 }
-.iconwith{
+
+.iconwith {
     color: white;
     font-size: small;
     font-weight: bold;
     margin-left: 10px;
 }
-.grennum{
+
+.grennum {
     color: lightblue;
     font-weight: bold;
     margin-left: 20px;
 }
-#boxxtx{
+
+#boxxtx {
     color: red;
     font-size: 28px;
     font-weight: bold;
 }
-#sectionhead{
+
+#sectionhead {
     color: white;
     font-weight: bold;
     font-size: 18px;
     /* margin-left: 110px; */
     /* margin-right: -100px; */
 }
-.maintgold{
+
+.maintgold {
     display: flex;
     flex-direction: row;
 }
-.tgold{
+
+.tgold {
     width: 40px;
     margin-bottom: 10px;
-    
+
 }
-.texx{
+
+.texx {
     color: white;
     font-weight: 500;
     font-size: 12px;
@@ -105,73 +118,85 @@
     /* margin-bottom: -60px !important; */
 }
 
-#mannimg{
+#mannimg {
     width: 55px;
 }
-#belgum{
+
+#belgum {
     width: 16px;
 }
-#mannmain{
+
+#mannmain {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* margin-bottom: -15px; */
 }
-#manntext{
+
+#manntext {
     color: white;
     font-weight: bold;
     font-size: small;
     /* width: 300px; */
 }
-#balnce{
+
+#balnce {
     color: white;
     font-size: x-small;
     font-weight: bold;
     margin-left: 40px;
     margin-top: 30px;
 }
-#pric2{
+
+#pric2 {
     font-weight: 900;
     color: white;
 }
-.ratd{
+
+.ratd {
     background-color: red;
     border: red solid 1px;
     border-radius: 12px;
     font-size: x-small;
-    width:135px;
+    width: 135px;
     height: 25px;
     margin-top: 5px;
     color: white;
     font-weight: bold;
 }
-.ratd:hover{
+
+.ratd:hover {
     background-color: lightblue;
     border: solid 1px lightblue;
 }
-#pric2main{
+
+#pric2main {
     margin-top: -20px;
 }
-.margin{
+
+.margin {
     margin-bottom: 20px;
 }
 
-.sLeft__mob{
+.sLeft__mob {
     display: none;
 }
-.sRight__mob{
+
+.sRight__mob {
     display: none;
 }
-.col-5_mob{
+
+.col-5_mob {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
     gap: 4px;
 }
+
 @media only screen and (max-width: 768px) {
-    #sectionman{
-      
+    #sectionman {
+
         margin-top: 10px;
         margin-bottom: 6px;
         background-color: #003a96;
@@ -192,22 +217,25 @@
         justify-content: center;
         padding-right: 20px;
     }
-    .sLeft{
+
+    .sLeft {
         display: grid;
-       grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
-    
-       
+
+
     }
-    .sRight{
+
+    .sRight {
         display: grid;
-       grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
     }
-  }
+}
+
 @media only screen and (max-width: 600px) {
-    #sectionman{
-     
+    #sectionman {
+
         margin-top: 10px;
         margin-bottom: 6px;
         background-color: #003a96;
@@ -228,28 +256,75 @@
         justify-content: center;
         padding-right: 20px;
     }
-    .sLeft{
-        display: none;  
-    }
-    .sRight{
+
+    .sLeft {
         display: none;
     }
-    .sLeft__mob{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-       
-gap: 10px;
-       
+
+    .sRight {
+        display: none;
     }
-    .sRight__mob{
+
+    .sLeft__mob {
+       display: flex;
+      
+       gap: 8px;
+
+    }
+    #balnce {
+        color: white;
+        font-size: x-small;
+        font-weight: bold;
+        margin-left: -10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #sectionhead {
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        /* margin-left: 110px; */
+        /* margin-right: -100px; */
+    }
+    
+    #boxx {
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 11px;
+        /* margin-top: -30px !important; */
+    }
+    #boxxtx {
+        color: red;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .rac {
+        color: white;
+      font-size: 12px;
+      font-weight: 400;
+        margin-left: 15px;
+        /* margin-top: -70px !important; */
+        /* margin-bottom: 100px !important; */
+    }
+    
+    .sRight__mob {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-         gap: 5px;
+        gap: 5px;
     }
-    .sLeft__mob #racemain{
+
+    .sLeft__mob #racemain {
         padding-top: 20px;
     }
-    .left_section{
+
+    .left_section {
         grid-column: 2 / span 4;
     }
-  }
+}

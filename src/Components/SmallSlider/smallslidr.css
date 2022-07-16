@@ -177,9 +177,14 @@
     }
 
     .boximg {
-        width: 20px;
+        width: 40px;
     }
 
+.icontxman p{
+    margin-top: 0!important;
+    font-size: 10px;
+    margin-bottom: 0!important;
+}
     .startRbutn {
         width: 55px;
         height: 20px;
