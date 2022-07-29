@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useContext, useState} from "react";
 import Navbar from "./../../Components/Navbar";
 import Linebar from "./../../Components/Linebar/Linebar";
 import Slider from "../../Components/slider/slider";
@@ -13,20 +13,21 @@ import Timer from "./../../Components/Timer/timer";
 
 import { Container, Row, Col } from "react-bootstrap";
 import "./Home.css";
+import { MainContent } from "../../Config/Router";
 
 function Home() {
-    const [smShow, setSmShow] = useState(false);
-  const [modaltype, setmodaltype] = useState("login1");
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
+
+
+  const { isAuthenticated, modaltype, setmodaltype, authModal,
+    setAuthModal,} = useContext(MainContent)
   return (
     <div id="Mainhome">
       <div>
-        <Navbar modaltype={modaltype} setmodaltype={setmodaltype}setIsAuthenticated={setIsAuthenticated}  smShow={smShow}
-setSmShow={setSmShow}/>
+        <Navbar />
       </div>
       <div>
         <Linebar setmodaltype1={setmodaltype}
-setSmShow1={setSmShow} isAuthenticated={isAuthenticated}/>
+setSmShow1={setAuthModal} isAuthenticated={isAuthenticated}/>
       </div>
       <div>
         <Slider />
@@ -89,8 +90,8 @@ setSmShow1={setSmShow} isAuthenticated={isAuthenticated}/>
           marginBottom: "40px",
         }}
       >
-        <Smallslider modaltype={modaltype} setmodaltype={setmodaltype}  smShow={smShow}
-setSmShow={setSmShow}/>
+        <Smallslider modaltype={modaltype} setmodaltype={setmodaltype}  smShow={authModal}
+setSmShow={setAuthModal}/>
       </div>
       <div id="smplline"></div>
 

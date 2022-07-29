@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect,useState } from "react";
 import "./Section1.css";
 import { Container, Row, Col, Modal } from "react-bootstrap";
 import profle from "./../../Images/PROFILEPIC.jpg";
@@ -14,7 +14,15 @@ import priceimg from "./../../Images/FTRTFB T.jpg";
 import lastimg from "./../../Images/RGRDGBHREGVRE.jpg";
 import closeicon from "./../../Images/52-521935_close-white-close-button-png-removebg-preview.png";
 import { Link } from "react-router-dom";
+import { countries } from "../compdata/data";
+
 function Sec({smShow, setSmShow, modaltype, setmodaltype}) {
+  const [profile_info, setProfile_info] = useState({})
+  useEffect(() => {
+ const user_profile_info = JSON.parse(localStorage.getItem("user_profile_info"))
+ setProfile_info(user_profile_info)
+  }, [])
+  
   return (
     <Container id="sectionmain">
       <div className="col_7">
@@ -33,8 +41,8 @@ function Sec({smShow, setSmShow, modaltype, setmodaltype}) {
         <div  style={{ marginTop: "10px" }}>
           <p style={{ color: "white" }}>
             Welcome
-            <h4 style={{ fontWeight: "bold" }}>Juan</h4>
-            <span style={{ fontSize: "small" }}>Juan s loft name</span>
+            <h4 style={{ fontWeight: "bold" }}>{profile_info?.name}</h4>
+            <span style={{ fontSize: "small" }}>{profile_info?.loft_name}</span>
           </p>
         </div>
         <div >
@@ -65,8 +73,8 @@ function Sec({smShow, setSmShow, modaltype, setmodaltype}) {
         </div>
         <div  id="manmain">
           <img src={belgium} id="belgium" />
-          <img src={manimg} id="manimg" />
-          <p id="mantext">Juan s loft name</p>
+        { profile_info?.outfit &&   <img src={countries[profile_info?.outfit - 1].img} id="manimg" />}
+          <p id="mantext">{profile_info?.loft_name}</p>
         </div>
         <div  style={{ marginTop: "-25px" }}>
           <div

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./../../Components/Navbar/index";
 import Linebar from "./../../Components/Linebar/Linebar";
 import SectionDiv from "./../../Components/SectionDiv/SectionDiv";
@@ -19,6 +19,17 @@ function Dashboard() {
   const [modalShow, setModalShow] = useState(false);
   const [modaltype, setmodaltype] = useState("wallet");
   const navigation = useNavigate()
+  useEffect(() => {
+    const user_profile_info = JSON.parse(localStorage.getItem("user_profile_info"))
+   if(user_profile_info){
+
+   }
+   else{
+    navigation("/")
+   }
+
+     }, [])
+     
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Modal
